@@ -494,7 +494,7 @@ table.shoping-cart-table tr td:last-child{width:80px}.product-name{font-size:16p
 .sk-spinner-fading-circle .sk-circle9:before{-webkit-animation-delay:-0.4s;animation-delay:-0.4s}.sk-spinner-fading-circle .sk-circle10:before{-webkit-animation-delay:-0.3s;animation-delay:-0.3s}
 .sk-spinner-fading-circle .sk-circle11:before{-webkit-animation-delay:-0.2s;animation-delay:-0.2s}.sk-spinner-fading-circle .sk-circle12:before{-webkit-animation-delay:-0.1s;animation-delay:-0.1s}
 @-webkit-keyframes sk-circleFadeDelay{0%,39%,100%{opacity:0}40%{opacity:1}}@keyframes sk-circleFadeDelay{0%,39%,100%{opacity:0}40%{opacity:1}}.landing-page.pace .pace-progress{background:#333332;position:fixed;z-index:2000;top:0;left:0;height:2px;-webkit-transition:width 1s;-moz-transition:width 1s;-o-transition:width 1s;transition:width 1s}
-.pace-inactive{display:none}body.landing-page{color:#43433c;font-family:'Open Sans',helvetica,arial,sans-serif;background-color:#fffff6}
+.pace-inactive{display:none}body.landing-page{color:#43433c;font-family:'Open Sans',helvetica,arial,sans-serif;background-color:#ffffff}
 .landing-page #1885bb{color:#1885bb;font-size:20px}.landing-page p.text-color{color:#676a6c}.landing-page a.navy-link{color:#3385ff;text-decoration:none}.landing-page a.navy-link:hover{color:#3385ff}
 .landing-page section p{color:#5a5a5a;font-size:18px}.landing-page address{font-size:13px}.landing-page h1{margin-top:10px;font-size:35px;font-weight:200}
 .landing-page .navy-line{width:60px;height:1px;margin:60px auto 0;border-bottom:2px solid #3385ff}.landing-page .navbar-wrapper{position:fixed;top:0;right:0;left:0;z-index:200}
