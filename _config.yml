@@ -2,8 +2,8 @@
 
 # Website settings
 title: "Data Me What"
-description: "Jack's blog,use Jekyll and github pages."
-keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
+description: "Don't be caught with your data down"
+keywords: "tjspross,tj spross, spross, data me what,github,gh-pages"
 baseurl: "/"
 url: "tjspross.github.io"
 # url: "http://127.0.0.1:4000"
@@ -18,7 +18,7 @@ author:
   last_name: 'TJ'
   email: 'tjspross@gmail.com'
   facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
+  github_username: 'tjspross'
   head_img: 'static/img/landing/Jack.jpg'
 
 # social link
