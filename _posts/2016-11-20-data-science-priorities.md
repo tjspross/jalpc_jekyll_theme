@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Analytics for Product Analysis
-date: 2016-08-08T00:00:00.000Z
+date: 2016-12-08T00:00:00.000Z
 desc: Why your startup should not use Google Analytics for Product Analysis
 keywords: Data Science
 categories:
@@ -13,9 +13,13 @@ icon: icon-phone-gap
 
 The most common question I receive when I talk about our data pipeline and the solution to process event data is:
 
-Why not just use google analytics?
 
-The simplest answer is that Google Analytics is not designed to be a product analytics tool (insight into your web/app product and user behavior) but rather marketing analytics (number of sessions, number of hits). With the pervasiveness of Google analytics, it's name is somewhat synonymous with event tracking and analytics itself. but beyond a certain scope it fails to serve the most crucial analytics needs.
+- > Why not just use Google Analytics?
+
+  
+The simplest answer is that **Google Analytics is not designed to be a product analytics tool** (insight into your web/app product and longterm user behavior) but rather marketing analytics (number of sessions, number of hits).
+
+With the pervasiveness of Google Analytics, it's name is somewhat synonymous with event tracking and analytics itself. It's for this reason I'm faced with this question so much. And while Google Analytics reputation is deserved, many people fail to see that is not designed for analytics work beyond a certain scope.
 
 # Delivering a Flexible and Comprehensive Analytics Product is Difficult
 
@@ -38,31 +42,32 @@ This is a rough breakdown of italki's analytic complexity:
 User segmentation
 
 - 3 Overall User types
-- 2 Teacher subtypes
-- 3 Buyer value-based subtypes
+  - 2 Teacher subtypes
+  - 3 Buyer value-based subtypes
 - 4 relevant Onboarding types
 - 100 countries, 6-8 regional groupings
-- > 100 languages (product of interest)
+- \> 100 languages (products of interest)
 
 For specific feature behavior or concepts:
 
+- 4 purchasing subtypes
 - 3 pricing models
 - 4 community features (non-monetized)
 - Buyer Activity (active, re-activated, churn)
 - Login Activity (active, re-activated, churn)
 - Funnel (flow from one step of on-boarding to another)
-- Registering
-- Search
-- Viewing products
-- Checkout pages
-- Purchasing
-- Misc (edit profile, view friends)
-- example: User of type XX performed purchased Y in 7 days after registering
-- example: All users of type XX who purchased in timeframe Z searched for Y in 24 hours.
+  - Registering
+  - Search
+  - Viewing products
+  - Checkout pages
+  - Purchasing
+  - Misc (edit profile, view friends)
+  - example: User of type XX performed purchased Y in 7 days after registering
+  - example: All users of type XX who purchased in timeframe Z searched for Y in 24 hours.
 - Individual Product view (same as above)
-- example: User of type XX performed search Y within timeframe Z
-- example: User of type XX performed viewed product page Y within timeframe Z
-- example: User of type XX performed viewed product page Y within timeframe Z and more.
+  - example: User of type XX performed search Y within timeframe Z
+  - example: User of type XX performed viewed product page Y within timeframe Z
+  - example: User of type XX performed viewed product page Y within timeframe Z and more.
 
 # Analysis is about exploration
 
@@ -80,8 +85,4 @@ Unfortunately, Google Analytics does not allow you to accomplish either point. M
 
 # Closing thoughts
 
-Depending on the size of your business, most likely you need to build your own solution sooner than you think. You can certainly pay for other companies to track data (MixPanel, Segment), store and analyze them, or you can build them yourself. I have much to say about this question. But I'll
-
-```
-ionic plugin add cordova-plugin-splashscreen
-```
+Depending on the size of your business, most likely you need to build your own solution sooner than you think. You can certainly pay for other companies to track data (MixPanel, Segment), store and analyze them, or you can build them yourself. I have much to say about this question. But I'll leave that for another post.
