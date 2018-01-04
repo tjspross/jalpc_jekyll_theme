@@ -13,7 +13,7 @@
   },
   "about_me":{
     "about_me": "About Me",
-    "des": "I am a Data Scientist based in Shanghai. I enable insights and specialize in quickly getting analytics infrastructure running at 1000x speed."
+    "des": "I am a data engineer/senior data analyst. Born in Albuquerque, New Mexico and now based in NYC, I have done data work for the national labs and have lived and worked in Taiwan, and Shanghai, China."
   },
   "skills":{
     "my_skills": "My Skills"
@@ -28,11 +28,11 @@
   "career":{
     "my_career": "My Career",
     "italki": "italki",
-    "italki_des": "I'm charged with developing and customizing the analytics solution for the world's largest language learning marketplace. We increased data collection by 30x, while creating an ETL solution to scale using EMR, Hive, Luigi and Redshift.",
+    "italki_des": "",
     "italki_date": "Aug. 2015",
-    "italki_job": "Data Scientist Lead",
+    "italki_job": "Analytics Lead \n Data Engineer",
     "snl": "Sandia National Laboratories",
-    "snl_des": "Outlier detection with PCA, computer vision with matlab and R. I worked mainly on signal processing and data compression using Savitzky Golay.",
+    "snl_des": "",
     "snl_date": "Jul. 2014",
     "snl_job": "Engineering Data Analyst"
   },
