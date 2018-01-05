@@ -1,9 +1,7 @@
 # TJ Spross Blog
 
 
-This blog is a reformatted version of another Jekyll theme found [here](https://github.com/Jack614/jalpc_jekyll_theme)
-For more thorough instructions on how to install please go there.
-
+Project was forked and redone from an original Jekyll theme found [here](https://github.com/Jack614/jalpc_jekyll_theme)
 
 #### Fork, then clone
 

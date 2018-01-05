@@ -13,28 +13,22 @@
   },
   "about_me":{
     "about_me": "About Me",
-    "des": "I am a data engineer/senior data analyst. Born in Albuquerque, New Mexico and now based in NYC, I have done data work for the national labs and have lived and worked in Taiwan, and Shanghai, China."
-  },
+
+    "des": "I am a data engineer/senior data analyst. Born in Albuquerque, New Mexico and now based in NYC, I have done data work for the national labs and have lived and worked in Taiwan and Shanghai, China."
+ },
   "skills":{
-    "my_skills": "My Skills"
-  },
-  "projects":{
-    "my_projects": "My Projects",
-    "saplatform": "Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.",
-    "jalpc": "Jalpc is a simple, beautiful and swift theme for Jekyll. It has comprehensive function, it can be easily used and edited. It's adapted for many kinds devices.",
-    "angularjs": "It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well.",
-    "rsser": "Rsser is an Ionic application, with this application we can read news and articles freely, you can add rss address from the given list and add it manually."
+    "my_skills": "Tools"
   },
   "career":{
-    "my_career": "My Career",
+    "my_career": "Experience",
     "italki": "italki",
-    "italki_des": "",
+    "italki_des": "Analytics Lead - Data Engineer",
     "italki_date": "Aug. 2015",
-    "italki_job": "Analytics Lead \n Data Engineer",
+    "italki_job": "",
     "snl": "Sandia National Laboratories",
-    "snl_des": "",
-    "snl_date": "Jul. 2014",
-    "snl_job": "Engineering Data Analyst"
+    "snl_des": "Engineering Data Analyst",
+    "snl_date": "Jun. 2013",
+    "snl_job": ""
   },
   "blog":{
     "my_blog": "My Blog"
