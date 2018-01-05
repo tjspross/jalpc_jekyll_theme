@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting up Analytics Infrastructure Part 1: Costs and Priorities
+title: Setting up Analytics Infrastructure Part 1 - Costs and Priorities
 date: 2016-07-01T00:00:00.000Z
 desc: None
 keywords: Data Science,EMR,Spark,Hive
