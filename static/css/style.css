@@ -5147,7 +5147,7 @@ dd.project-people {
 }
 .article p {
   font-size: 15px;
-  line-height: 26px;
+  line-height: 2;
 }
 .article-title {
   text-align: center;
@@ -5155,6 +5155,9 @@ dd.project-people {
 }
 .article .ibox-content {
   padding: 40px;
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
 }
 /* ISSUE TRACKER */
 .issue-tracker .btn-link {
