@@ -5,11 +5,10 @@ title: "Data Me What"
 description: "Don't be caught with your data down"
 keywords: "tjspross,tj spross, spross, data me what,github,gh-pages"
 baseurl: "/"
-url: "tjspross.github.io"
+
+# url: "datamewhat.com"
 # url: "http://127.0.0.1:4000"
 
-# blog img path
-img_path: 'http://www.jack003.com/static/img/blog'
 
 # author
 author:
@@ -90,6 +89,7 @@ ga:
 
 # Build settings
 encoding: "utf-8"
+
 
 # other settings
 highlighter: rouge

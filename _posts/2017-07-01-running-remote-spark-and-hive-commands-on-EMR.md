@@ -11,6 +11,8 @@ tags:
 icon: icon-phone-gap
 ---
 
+If you're setting up a data pipeline using AWS - you're most likely using a combination of tools and 
+
 AWS provides pretty thorough documentation on all of its products, but in some cases there is still a huge knowledge gap
 AWS generally provides pretty thorough documentation for all of it's products. When it came to building our data pipeline, information 
 on the web about about how to actually run Hive and Spark jobs through EMR was extremely lacking, and experimenting and debugging new 
