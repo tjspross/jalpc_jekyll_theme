@@ -13,7 +13,7 @@ icon: icon-phone-gap
 
 
 
-For the past several months I've been scraping listings data from [SmartShanghai](smartshanghai.com). Since the rental market for foreigners is large and robust enough to perform simple data analysis, I might be able to provide some tips for finding cheap apartments in Shanghai.
+For the past several months I've been scraping listings data from [SmartShanghai](www.smartshanghai.com). Since the rental market for foreigners is large and robust enough to perform simple data analysis, I might be able to provide some tips for finding cheap apartments in Shanghai.
 
 
 SmartShanghai’s listing service is the most widely used online apartment hunting service for foreigners new to Shanghai. Before we dig into the data there are a couple points that we should be clear on.
@@ -92,11 +92,11 @@ If you go up north to Changing Rd or Zhenping Rd, the variability in quality of 
 <br>
 <br>
 
-People tend to think that Lane houses (laofang 老房) are cheaper and that lane houses are more likely to be really nice, or really really squalid. So they have higher variability in quality.
+I think people tend to believe that lane houses (AKA laofang 老房 AKA No elevator walk-ups) are cheaper and that lane houses are more likely to be really, really nice or really, really squalid. So they have higher variability in quality.
 
 <br>
 
-This might be true when you central Shanghai to areas outside of central Shanghai. But in central Shanghai or in the French Concession area, neither point is true. For the first point, it’s true 1 bedroom or 2 bedroom laofangs are cheaper than places in apartment buildings. But this is only because laofangs tend to be smaller. **If we look at price per meter, laofangs and apartment buildings are exactly the same in the French Concession.** The graph below also suggest that laofang and apartment buildings are just as likely to be overpriced or underpriced according to the mean. So you’re just as likely to find well-furnished high-rise apartments as you would find well-furnished laofang apartments. The same goes for underpriced or poor-quality apartments.
+This might be true when you compare central Shanghai to areas outside of central Shanghai. But in central Shanghai or in the French Concession area, neither point is true. For the first point, it’s true 1 bedroom or 2 bedroom laofangs are cheaper than places in apartment buildings. But this is only because laofangs tend to be smaller. **If we look at price per meter, laofangs and apartment buildings are exactly the same in the French Concession.** The graph below also suggest that laofang and apartment buildings are just as likely to be overpriced or underpriced according to the mean. So you’re just as likely to find well-furnished high-rise apartments as you would find well-furnished laofang apartments. The same goes for underpriced or poor-quality apartments.
 
 ![High-rise Apartment](/assets/smartshanghai/ffc_2br_laofang_vs_hr_ppm.png)
 
