@@ -1,19 +1,19 @@
 ---
 layout: post
 title: Analyzing rental listings - finding a cheap Shanghai apartment
-date: 2018-01-09T00:00:00.000Z
+date: 2018-01-15T00:00:00.000Z
 desc: 
 keywords: Shanghai,apartment hunting,rental
 categories:
   - Shanghai
 tags:
   - Shanghai
-icon: icon-phone-gap
+icon: icon-python
 ---
 
 
 
-For the past several months I've been scraping listings data from [SmartShanghai](www.smartshanghai.com). Since the rental market for foreigners is large and robust enough to perform simple data analysis, I might be able to provide some tips for finding cheap apartments in Shanghai.
+For the past several months I've been scraping listings data from <a href="https:\\www.smartshanghai.com">SmartShanghai</a>.. Since the rental market for foreigners is large and robust enough to perform simple data analysis, I might be able to provide some tips for finding cheap apartments in Shanghai.
 
 
 SmartShanghai’s listing service is the most widely used online apartment hunting service for foreigners new to Shanghai. Before we dig into the data there are a couple points that we should be clear on.

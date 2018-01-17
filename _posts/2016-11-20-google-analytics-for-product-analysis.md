@@ -8,8 +8,10 @@ categories:
   - Data Science
 tags:
   - Data Science
-icon: icon-phone-gap
+icon: icon-google
 ---
+
+With the pervasiveness of Google Analytics, it's name is somewhat synonymous with event tracking and analytics itself. Many people fail to see that is not designed for analytics work beyond a certain scope.
 
 The most common question I receive when I talk about our data pipeline and the solution to process event data is:
 
@@ -18,12 +20,19 @@ The most common question I receive when I talk about our data pipeline and the s
 
   
 The simplest answer is that **Google Analytics is not designed to be a product analytics tool** (insight into your web/app product and longterm user behavior) but rather marketing analytics (number of sessions, number of hits).
+Google analytics can answer a question like
 
-With the pervasiveness of Google Analytics, it's name is somewhat synonymous with event tracking and analytics itself. It's for this reason I'm faced with this question so much. And while Google Analytics reputation is deserved, many people fail to see that is not designed for analytics work beyond a certain scope.
+-> How much of our new traffic comes from X?
+
+But it cannot answer a question like
+
+-> Do users need less or more guidance in our onboarding? What ultimately determines a users ‘success’?
 
 # Delivering a Flexible and Comprehensive Analytics Product is Difficult
+I don't think startup founders underestimate how complciated their web products are, but they do seem to have trouble reconciling that complexity
+with the idea that google analytics or any plug-in tool can't solve their analytics needs.
 
-Let me give you an example company that provides a two-sided marketplace. This company offers a platform for _sellers_ to offer services to _buyers_, in between there are lurking _free users_ we either hope to convert to _buyers_ and _sellers_. Where buying and selling behavior is concerned, there are 4 locational segments.
+Let me give you an example company that provides a two-sided marketplace. This company offers a platform for _sellers_ to offer services to _buyers_, in between there are lurking _free users_. Where buying and selling behavior is concerned, there are 4 locational segments.
 
 - 3 user types
 - 4 different regional segments.

@@ -1,26 +1,38 @@
 ---
 layout: post
 title: Running Remote Hive, Sqoop or Spark Commands on EMR
-date: 2016-07-01T00:00:00.000Z
-desc: Why your startup should not use Google Analytics for Product Analysis
+date: 2017-08-01T00:00:00.000Z
+desc: Data pipeline setup. How to configure scheduling servers and how to run remote commands.
 keywords: Data Science,EMR,Spark,Hive
 categories:
   - Data Science,Spark,Hive
 tags:
   - Data Science
-icon: icon-phone-gap
+icon: icon-python
 ---
 
-If you're setting up a data pipeline using AWS - you're most likely using a combination of tools and 
+Something I struggled with frequently when it came to engineering a reliable data pipeline was how to 
+execute commands to some remote application. 
 
-AWS provides pretty thorough documentation on all of its products, but in some cases there is still a huge knowledge gap
-AWS generally provides pretty thorough documentation for all of it's products. When it came to building our data pipeline, information 
-on the web about about how to actually run Hive and Spark jobs through EMR was extremely lacking, and experimenting and debugging new 
-ways to submit jobs to clusters was a huge headache.
+Currently, the pipeline runs Sqoop to extract production MySQL
+data, and it uses Spark (replacing Hive) to clean event data. Fairly standard setup. For every 
 
-Since our tasks ran daily or weekly and we weren't using Hadoop as our data warehouse, the idea was that one task would start up our cluster, 
-several tasks would complete whatever data-cleaning operation, and the final task would finally shutdown the cluster. This would happen 
-daily and take under an hour.
+
+The basic premise with our data pipeline and I think most companies who need to batch process data, was
+to handle all of the scheduling (crontab, workflow code like Luigi or Airflow) on a small cloud server. The
+actual logic and taskflow of your pipeline exists in code on this scheduling server. When it comes to
+cleaning data, it will create and shutdown resources (EMR clusters) as it needs and dictate commands 
+to those resources. The handling of the data (execution) mostly occurs on those resources. The 
+advantange of this is that
+you get all the flexibility and scalability of EMR, without the costs of running a permanent cluster, which
+unless your running Druid, Presto or Hive as a data warehouse and you have the immense datasize to 
+justify those costs, it's best to just fireup data-cleaning clusters that can pipeline data to your 
+warehouse on a nightly basis.
+
+
+# The Issue
+
+
 
 # Requirements
 We have the remote cluster and the local server. In the case that we are developing, the local server is our local machine. When these
