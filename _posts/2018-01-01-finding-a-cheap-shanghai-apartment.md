@@ -13,17 +13,10 @@ icon: icon-python
 
 
 
-For the past several months I've been scraping listings data from <a href="https:\\www.smartshanghai.com">SmartShanghai</a>.. Since the rental market for foreigners is large and robust enough to perform simple data analysis, I might be able to provide some tips for finding cheap apartments in Shanghai.
+For the past several months I've been scraping listings data from <a href="https:\\www.smartshanghai.com">SmartShanghai</a>. Since the rental market for foreigners is large and robust enough to perform simple data analysis, I might be able to provide some tips for finding cheap apartments in Shanghai.
 
 
-SmartShanghai’s listing service is the most widely used online apartment hunting service for foreigners new to Shanghai. Before we dig into the data there are a couple points that we should be clear on.
-
-
-
-
-1. Very, very cheap apartments (<4000 CNY) are rarely listed, so any summary statistic below (median, average price)  is a little bit skewed to a higher value - but not by much. If you want to find these apartments you can walk into an agency and ask. These apartments often have some sort of catch (shared bathroom, shared bed, fake landlord etc) whereas SmartShanghai listings I analyze below are more standard, standalone apartments, not sublets.
-
-2. The foreign rental market is on average more expensive than the market for Chinese renters. The biggest reason is that the makeup and salary of these two groups of renters is different. If we control for full apartments (non-sublets) the price for a two bedroom a foreigner might find though an English-speaking agent is not going to be much higher than the price a local might find. If it is higher it’s likely possible you can negotiate to the same price point. 
+SmartShanghai’s listing service is the most widely used online apartment hunting service for foreigners new to Shanghai.
 
 
 # **How to get the best deal on your apartment rental in Shanghai**
@@ -101,3 +94,10 @@ This might be true when you compare central Shanghai to areas outside of central
 ![High-rise Apartment](/assets/smartshanghai/ffc_2br_laofang_vs_hr_ppm.png)
 
 Although the data suggests the price differences aren’t huge, subjectively, I do believe these two types of apartments have pretty different style and aesthetics, so it’s best to choose the apartment style that suits your preferences. You do not have to worry that you are overpaying or underpaying because you chose one type over the other.
+
+# Analysis Constraints
+
+1. Very, very cheap apartments (<4000 CNY) are rarely listed, so any summary statistic below (median, average price)  is a little bit skewed to a higher value - but not by much. If you want to find these apartments you can walk into an agency and ask. These apartments often have some sort of catch (shared bathroom, shared bed, fake landlord etc) whereas SmartShanghai listings I analyze below are more standard, standalone apartments, not sublets.
+
+2. The foreign rental market is on average more expensive than the market for Chinese renters. The biggest reason is that the makeup and salary of these two groups of renters is different. If we control for full apartments (non-sublets) the price for a two bedroom a foreigner might find though an English-speaking agent is not going to be much higher than the price a local might find. If it is higher it’s likely possible you can negotiate to the same price point. 
+
